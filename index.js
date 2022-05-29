@@ -21,6 +21,7 @@ function updateClock() {
     minutesEle.innerText = minute;
     secondsEle.innerText = seconds;
     ampmEle.innerText = ampm;
+    // To update every second
     setTimeout(() => {
      updateClock()   
     },1000)
